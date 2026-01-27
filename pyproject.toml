@@ -1,0 +1,32 @@
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "major_assignment_2_duffy"
+version = "0.0.1"
+description = "This is an assignment to utilize git, github, AWS and more useful technology for data science"
+authors = [
+  { name = "Matthew Duffy" },
+]
+
+readme = "README.md"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    
+]
+requires-python = "~=3.10.0"
+
+
+[tool.ruff]
+line-length = 99
+src = ["major_assignment_2_duffy"]
+include = ["pyproject.toml", "major_assignment_2_duffy/**/*.py"]
+
+[tool.ruff.lint]
+extend-select = ["I"]  # Add import sorting
+
+[tool.ruff.lint.isort]
+known-first-party = ["major_assignment_2_duffy"]
+force-sort-within-sections = true
+
