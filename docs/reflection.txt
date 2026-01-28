@@ -1,0 +1,8 @@
+The dataset I used in this assignment is from my personal fantasy football dataset. I collect the statistics
+from each season we play so I can run fun analysis on my league. I wrote code to accommodate multiple datasets by looping, 
+but the approach would change depending on the data. I coded expecting each file to be a season of the same format, so I simply concatenate all
+dataframes and return them as one file for analysis. If it was not the same type of file (say I wanted NFL regular season schedule data), 
+I would likely loop through with conditionals. I would either use naming convention of table structure to decide what collection of data it
+belongs to and what sort of data cleaning is required and output as many types of files as necessary.
+
+I saved my graph in "reports/figures/average_points_by_manager.png". It is viewable as a .png file.

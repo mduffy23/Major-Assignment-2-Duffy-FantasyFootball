@@ -1,0 +1,4 @@
+- Make a model to predict player fantasy points in a given week
+- Bring in extra data like player team, opponent team, and game injured list to bolster findings
+- Create user interface to get predictions based on parameters (can use real NFL schedule data or create hypothetical situations)
+- Deploy model for public use
