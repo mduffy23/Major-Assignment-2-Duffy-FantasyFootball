@@ -5,7 +5,7 @@ import typer
 import pandas as pd
 
 
-from major_assignment_2_duffy.config import PROCESSED_DATA_DIR, RAW_DATA_DIR
+from major_assignment_2_duffy.config import PROCESSED_DATA_DIR, RAW_DATA_DIR, FIGURES_DIR
 app = typer.Typer()
 
 
